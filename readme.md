@@ -1,72 +1,69 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+![eyecatch_kasotsuka](https://user-images.githubusercontent.com/59543879/75839379-0bdef100-5e0c-11ea-9265-d8730079e3a7.png)
 
+アプリ名：ico-list
+====
+
+Overview
+
+## 使用技術
+<p>言語・・・HTML, CSS, PHP, SQL</p>
+<p>フレームワーク、ライブラリ・・・Laravel,bootstrap</p>
+<p>ツール・・・Git, Vagrant, VirtualBox, AWS</p>
+<p>WEBサーバー・・・apache</p>
+<p>DB・・・mysql</p>
+<p>OS・・・Linux</p>
+
+ 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+  <a href="PWA公式サイトURL"><img src="https://user-images.githubusercontent.com/59543879/75857552-be797880-5e39-11ea-865c-ad5f2d71ac07.png" height="80px;" /></a>
+  <a href="Firebase公式サイトURL"><img src="https://user-images.githubusercontent.com/59543879/75740354-c0b0d980-5d4a-11ea-9497-fff61fee7fe7.png" height="80px;" /></a>
+  <a href="firealpaca公式サイトURL"><img src="https://user-images.githubusercontent.com/59543879/75740355-c0b0d980-5d4a-11ea-883b-1fec9f9a6476.jpg" height="80px;" /></a>
+  <a href="firealpaca公式サイトURL"><img src="https://user-images.githubusercontent.com/59543879/75740358-c1497000-5d4a-11ea-9307-319d2cc38dbe.png" height="80px;" /></a>
+    <a href="firealpaca公式サイトURL"><img src="https://user-images.githubusercontent.com/59543879/75837330-e05a0780-5e07-11ea-81e9-a985d0841faa.jpg" height="80px;" /></a></p>
+    <p align="center">
+   <a href="firealpaca公式サイトURL"><img src="https://user-images.githubusercontent.com/59543879/75837317-d506dc00-5e07-11ea-92b8-5e3f229a312a.png" height="80px;" /></a>
+  <a href="firealpaca公式サイトURL"><img src="https://user-images.githubusercontent.com/59543879/75837409-20b98580-5e08-11ea-9498-28b011912326.png" height="80px;" /></a>
+     <a href="firealpaca公式サイトURL"><img src="https://user-images.githubusercontent.com/59543879/75837413-231bdf80-5e08-11ea-8d6e-213f0454add3.jpg" height="80px;" /></a>
+   <a href="firealpaca公式サイトURL"><img src="https://user-images.githubusercontent.com/59543879/75837563-91f93880-5e08-11ea-857a-88ec39674c97.png" height="80px;" /></a>
+   <a href="firealpaca公式サイトURL"><img src="https://user-images.githubusercontent.com/59543879/75837566-932a6580-5e08-11ea-811e-ffbb87225701.jpg" height="80px;" /></a>
+ </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## 説明
+ico投資家が投資をする判断材料の1つとして見ていただくのがico-listです。サービスを提供初めました。
+## アプリURL
+https://ico-list.work
+## 使い方
+詐欺と思われるicoを見つけた場合は新規登録からログイン後ico追加画面にてico名と詐欺だと思う内容を記載、その後コメントにて詐欺についてのコメントをしていく。
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 実装機能
+<h3>記事関連</h3>
+<p>・一覧表示機能</p>
+<p>・詳細表示機能</p>
+<p>・削除機能</p>
+<p>・編集機能</p>
+<p>・キーワード検索機能</p>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<h3>ユーザー関連</h3>
+<p>・登録機能</p>
+<p>・編集機能</p>
+<p>・ログイン・アウト機能</p>
+<p>・コメント関連</p>
+<p>・投稿機能</p>
+<p>・削除機能</p>
 
-## Laravel Sponsors
+ 
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Licence
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
 
-## Contributing
+## Author
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+[qiita](https://qiita.com/siraki)
 
-## Security Vulnerabilities
+[github](#)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
