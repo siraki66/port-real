@@ -1,14 +1,15 @@
 ![eyecatch_kasotsuka](https://user-images.githubusercontent.com/59543879/75839379-0bdef100-5e0c-11ea-9265-d8730079e3a7.png)
 
-アプリ名：ico-list
+ico-list
 ====
 
-Overview
+
 
 ## 使用技術
 <p>言語・・・HTML, CSS, PHP, SQL</p>
 <p>フレームワーク、ライブラリ・・・Laravel,bootstrap</p>
-<p>ツール・・・Git, Vagrant, VirtualBox, AWS</p>
+<p>ツール・・・Git, Vagrant, VirtualBox</p>
+<p>インフラ・・・ AWS</p>
 <p>WEBサーバー・・・apache</p>
 <p>DB・・・mysql</p>
 <p>OS・・・Linux</p>
