@@ -1,0 +1,12 @@
+[2020-02-25 11:47:46] local.ERROR: Illuminate\View\Engines\PhpEngine::main(): Failed opening required 'z../require/before-header.php' (include_path='.:/usr/share/pear:/usr/share/php') {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Illuminate\\View\\Engines\\PhpEngine::main(): Failed opening required 'z../require/before-header.php' (include_path='.:/usr/share/pear:/usr/share/php') at /home/vagrant/laravel_lessons_copy/myblog/storage/framework/views/8da56822db4be163c9f809f66b0ae7daaaaa5f86.php:23)
+[stacktrace]
+#0 {main}
+"} 
+[2020-02-25 11:48:08] local.ERROR: Illuminate\View\Engines\PhpEngine::main(): Failed opening required '../../require/before-header.php' (include_path='.:/usr/share/pear:/usr/share/php') {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Illuminate\\View\\Engines\\PhpEngine::main(): Failed opening required '../../require/before-header.php' (include_path='.:/usr/share/pear:/usr/share/php') at /home/vagrant/laravel_lessons_copy/myblog/storage/framework/views/8da56822db4be163c9f809f66b0ae7daaaaa5f86.php:23)
+[stacktrace]
+#0 {main}
+"} 
+[2020-02-25 11:48:10] local.ERROR: Illuminate\View\Engines\PhpEngine::main(): Failed opening required '../../require/before-header.php' (include_path='.:/usr/share/pear:/usr/share/php') {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Illuminate\\View\\Engines\\PhpEngine::main(): Failed opening required '../../require/before-header.php' (include_path='.:/usr/share/pear:/usr/share/php') at /home/vagrant/laravel_lessons_copy/myblog/storage/framework/views/8da56822db4be163c9f809f66b0ae7daaaaa5f86.php:23)
+[stacktrace]
+#0 {main}
+"} 

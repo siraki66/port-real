@@ -1,0 +1,15 @@
+[2020-02-20 09:58:54] local.ERROR: The "--host192.168.33.10" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--host192.168.33.10\" option does not exist. at /home/vagrant/laravel_lessons_copy/myblog/vendor/symfony/console/Input/ArgvInput.php:203)
+[stacktrace]
+#0 /home/vagrant/laravel_lessons_copy/myblog/vendor/symfony/console/Input/ArgvInput.php(147): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('host192.168.33....', NULL)
+#1 /home/vagrant/laravel_lessons_copy/myblog/vendor/symfony/console/Input/ArgvInput.php(81): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--host192.168.3...')
+#2 /home/vagrant/laravel_lessons_copy/myblog/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 /home/vagrant/laravel_lessons_copy/myblog/vendor/symfony/console/Command/Command.php(214): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#4 /home/vagrant/laravel_lessons_copy/myblog/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#5 /home/vagrant/laravel_lessons_copy/myblog/vendor/symfony/console/Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 /home/vagrant/laravel_lessons_copy/myblog/vendor/symfony/console/Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\ServeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 /home/vagrant/laravel_lessons_copy/myblog/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 /home/vagrant/laravel_lessons_copy/myblog/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/laravel_lessons_copy/myblog/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/laravel_lessons_copy/myblog/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
